@@ -3,7 +3,9 @@
 import media
 import fresh_tomatoes
 
-
+# In the three variables below they all call the class movie (in media).
+# There are three arguments in the class which are title, image url, and
+# youtube video url.
 oblivion = media.movie('Oblivion',
                        'https://images-na.ssl-images-amazon.com/images/M/MV5'
                        'BMTQwMDY0MTA4MF5BMl5BanBnXkFtZTcwNzI3MDgxOQ@@._'
@@ -22,6 +24,8 @@ interstellar = media.movie('Interstellar',
                            'wMzM4ODI3MjE@._V1_UY1200_CR69,0,630,1200_AL_',
                            '.jpghttps://www.youtube.com/watch?v=0vxOhd4qlnA')
 
+# The movie list was made into a string to be taken into the function
+# fresh_tomatoes.open_movies_page()
 movie_list = [oblivion, pacific_rim, interstellar]
 
 fresh_tomatoes.open_movies_page(movie_list)
