@@ -12,13 +12,13 @@ To run this program you will need to have Python 2 installed.
 * media.movie takes in 3 arguments, which are the title,
 	image url, and the video url for the trailer.
 ***
-	**Movie** = media.movie(**Movie Title**, **Image url**, **Trailer url**)
+	Movie = media.movie(Movie Title, Image url, Trailer url)
 ***	
 
 * Add the new movie to the list named movie_list.
 
 ***
-	movie_list = [oblivion, pacific_rim, interstellar, **New Movie Variable**]
+	movie_list = [oblivion, pacific_rim, interstellar, New Movie Variable]
 ***
 
 * To update and run this program simply double click on 
