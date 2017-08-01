@@ -9,16 +9,16 @@ To run this program you will need to have Python 2 installed.
 ## Instruction to add movies
 * Open **entertainment_center.py** by right clicking and choosing **Edit with IDLE**.
 * Assign a movie to the function media.movie().
-* media.movie takes in 3 arguments, which are the title,
+* media.movie takes in 3 string arguments, which are the title,
 	image url, and the video url for the trailer.
 ***
-	Movie = media.movie(Movie Title, Image url, Trailer url)
+	new_movie_variable = media.movie('Movie Title', 'Image url', 'Trailer url')
 ***	
 
 * Add the new movie to the list named movie_list.
 
 ***
-	movie_list = [oblivion, pacific_rim, interstellar, New Movie Variable]
+	movie_list = [oblivion, pacific_rim, interstellar, new_movie_variable]
 ***
 
 * To update and run this program simply double click on 
